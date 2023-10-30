@@ -8,6 +8,9 @@ const house = {
 const callFunction = house.callDog.bind(house);
 callFunction()
 
+
+
+
 const house2 = {
     dog: "Heroine",
     callDog: () => console.log(`Hey, ${this.dog}!`),
